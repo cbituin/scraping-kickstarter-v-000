@@ -7,13 +7,16 @@ def create_project_hash
   projects = {}  
 
   html = File.read('fixtures/kickstarter.html')
- 
   kickstarter = Nokogiri::HTML(html)
   
-  kickstarter.css("li.project.grid_4").each { |projects| projects[project] = {} }
+  kickstarter.css("li.project.grid_4").each { |projects| 
+  projects[project] = {} 
+    
+  }
   
   # binding.pry
   projects
+  
 end
 
 create_project_hash
