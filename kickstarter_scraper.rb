@@ -1,6 +1,7 @@
 # require libraries/modules here
 open 'nokogiri'
 
+require 'pry'
 
 def create_project_hash
   
