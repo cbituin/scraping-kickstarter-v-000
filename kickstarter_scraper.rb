@@ -1,5 +1,5 @@
 # require libraries/modules here
-open 'nokogiri'
+require 'nokogiri'
 
 require 'pry'
 
