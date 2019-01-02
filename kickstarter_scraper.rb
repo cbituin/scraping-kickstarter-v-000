@@ -5,9 +5,8 @@ require 'pry'
 
 def create_project_hash
   
-  def initialize
-  end
-  
+
+
   html = File.read('fixtures/kickstarter.html')
  
   kickstarter = Nokogiri::HTML(html)
